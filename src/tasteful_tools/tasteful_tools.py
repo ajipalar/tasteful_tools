@@ -2,5 +2,5 @@ import pickle as pkl
 
 def pklload(x):
     with open(x, "rb") as f:
-        return pkl.load(x)
+        return pkl.load(f)
 
